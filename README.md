@@ -1,1 +1,1 @@
-# data.tech.az
+# techdiaspora
