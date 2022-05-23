@@ -5,7 +5,7 @@
 }
 
 .slider-content {
-  padding: 180px 60px;
+  padding: 144px 60px;
 }
 .slide-image {
   background-color: red !important;
@@ -36,6 +36,7 @@ width: 400px;
 .head-title3 {
   font-size: 20px !important;
   line-height: 30px;
+  margin: 0 !important;
 }
 
 .nivo-caption::after {
@@ -146,7 +147,7 @@ width: 400px;
 
 @media (min-width: 1400px) and (max-width: 1920px) {
   .slider-content {
-    padding: 340px 0;
+    padding: 240px 0;
   }
 }
 
