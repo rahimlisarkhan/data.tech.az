@@ -25,6 +25,10 @@
     top:0px;
     left:0px;
 } */
+
+.register-btn{
+    visibility: hidden;
+  }
 .nivoSlider {
 	position:relative;
 	width:100%;

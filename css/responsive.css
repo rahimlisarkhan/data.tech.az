@@ -46,7 +46,7 @@
   .suscribe-input button {
     width: 40%;
   }
-  .team-content.text-center>h4 {
+  .team-content.text-center > h4 {
     font-size: 20px;
   }
   .sus-btn {
@@ -105,7 +105,7 @@
   .single-add-itms {
     width: 50%;
   }
-  .left-sidebar-title>h4 {
+  .left-sidebar-title > h4 {
     font-size: 18px;
   }
   .contact-form {
@@ -119,31 +119,43 @@
 /* small mobile :320px. */
 
 @media (max-width: 767px) {
+  .register-btn {
+    padding: 7px 20px;
+    position: relative;
+    visibility: visible;
+    top: 10px !important;
+  }
 
   .header-area {
     height: 60px !important;
     background: #000;
   }
-  .navbar-header a.navbar-brand, .stick .navbar-header a.navbar-brand {
+  .navbar-header a.navbar-brand,
+  .stick .navbar-header a.navbar-brand {
     display: inline-block;
-    height: 60px  !important;
+    height: 60px !important;
     padding: 9px 0;
   }
-  .navbar-default .navbar-toggle, .stick .navbar-default .navbar-toggle {
+  .navbar-default .navbar-toggle,
+  .stick .navbar-default .navbar-toggle {
     padding: 15px 0;
   }
-  .nav.navbar-nav.navbar-right, .stick .nav.navbar-nav.navbar-right {
+  .nav.navbar-nav.navbar-right,
+  .stick .nav.navbar-nav.navbar-right {
     background-color: #252525;
     padding: 0;
     margin-top: 0;
   }
-  .main-menu ul.navbar-nav li, .stick .main-menu ul.navbar-nav li {
+  .main-menu ul.navbar-nav li,
+  .stick .main-menu ul.navbar-nav li {
     display: block;
   }
-  .main-menu ul.navbar-nav li a, .stick .main-menu ul.navbar-nav li a {
+  .main-menu ul.navbar-nav li a,
+  .stick .main-menu ul.navbar-nav li a {
     padding: 10px 2px;
   }
-  .main-menu ul.navbar-nav li.active a::after, .stick .main-menu ul.navbar-nav li.active a::after {
+  .main-menu ul.navbar-nav li.active a::after,
+  .stick .main-menu ul.navbar-nav li.active a::after {
     border: 0px solid #fff;
   }
   .logo {
@@ -162,18 +174,34 @@
     margin-top: 60px;
   }
 
+  .head-title1 {
+    font-size: 60px !important;
+  }
+  .head-title1 span {
+    margin: 0 10px;
+    font-size: 40px !important;
+  }
+
+  .head-title2 {
+    margin: 20px 0;
+    font-size: 50px !important;
+  }
+
+  .head-title3 {
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+
   .slider-content h2 {
-    font-size: 25px !important;
     line-height: 24px !important;
     text-transform: uppercase !important;
   }
   .slider-content h1 {
-    font-size: 14px !important;
     line-height: 26px !important;
   }
 
   .layer-1-3 a.ready-btn {
-    padding: 8px 15px;
+    padding: 8px 15px !important;
   }
   .section-headline h2 {
     font-size: 30px;
@@ -208,14 +236,15 @@
   .section-headline h3 {
     font-size: 25px;
   }
-  .well-text>h2 {
+  .well-text > h2 {
     font-size: 18px;
   }
   .well-text p {
     display: none;
   }
   .single-team-member {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    background-color: red;
   }
   .service-right {
     width: 100%;
@@ -233,7 +262,8 @@
   .pri_table_list {
     margin-bottom: 30px;
   }
-  .single-awesome-project, .portfolio-2 .single-awesome-project {
+  .single-awesome-project,
+  .portfolio-2 .single-awesome-project {
     width: 100%;
     float: none;
   }
