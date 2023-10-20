@@ -840,7 +840,7 @@ div#preloader {
 .single-team-member {
   border: 1px solid #ddd;
   width: 95%;
-  height: 400px;
+  height:270px;
 }
 
 .team-left-text h4 {
@@ -943,7 +943,7 @@ div#preloader {
 
 .team-img img {
   width: 100%;
-  height: 400px;
+  height: 270px;
   object-fit: fill;
 }
 
