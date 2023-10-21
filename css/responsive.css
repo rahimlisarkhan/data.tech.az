@@ -332,9 +332,9 @@
 
 @media screen and (max-width:769px){
       .team-img img{
-        height: 350px;
+        height: 200px;
       }
       .single-team-member{
-        height: 350px;
+        height: 200px;
       }
 }
