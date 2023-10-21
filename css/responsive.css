@@ -329,3 +329,12 @@
     padding: 8px 20px;
   }
 }
+
+@media screen and (max-width:769px){
+      .team-img img{
+        height: 350px;
+      }
+      .single-team-member{
+        height: 350px;
+      }
+}
