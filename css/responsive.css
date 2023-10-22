@@ -337,4 +337,7 @@
       .single-team-member{
         height: 200px;
       }
+      .team-title{
+        font-size: 16px;
+      }
 }
