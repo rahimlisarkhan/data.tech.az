@@ -3,7 +3,7 @@ body {
   height: 100%;
 }
 
-.nivo-controlNav{
+.nivo-controlNav {
   display: none;
 }
 
@@ -840,7 +840,7 @@ div#preloader {
 .single-team-member {
   border: 1px solid #ddd;
   width: 95%;
-  height:270px;
+  height: 270px;
 }
 
 .team-left-text h4 {
@@ -937,7 +937,7 @@ div#preloader {
   margin-top: 4.2rem;
 }
 
-.services{
+.services {
   margin: 100px 0;
 }
 
@@ -2484,6 +2484,6 @@ span.email-notes {
  .End CSS
 ----------------------------------------*/
 
-.mini-icon{
+.mini-icon {
   width: 40px;
 }
